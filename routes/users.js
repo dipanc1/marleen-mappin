@@ -2,6 +2,10 @@ const router = require("express").Router();
 const User = require("../models/User");
 const bcrypt = require("bcrypt");
 
+app.get('/users', (req, res) => {
+    res.send('Users');
+});
+
 
 // register
 
