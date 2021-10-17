@@ -1,9 +1,6 @@
 const router = require("express").Router();
 const Pin = require("../models/Pin");
 
-app.get('/pins', (req, res) => {
-    res.send('Pins');
-});
 
 // create a pin
 
